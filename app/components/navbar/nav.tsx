@@ -36,7 +36,7 @@ const NavBar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                        <Link href="/My Resume.pdf" target="_blank" rel="noopener noreferrer">
                             <p className="hover:text-gray-400">Resume</p>
                         </Link>
                     </li>

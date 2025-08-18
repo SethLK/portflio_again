@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const SocialLinks = [
     {
@@ -30,7 +31,9 @@ export default function LeftSide() {
         {SocialLinks.map((link) => (
           <li key={link.name} className="mb-4">
             <a href={link.url} target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-gray-400 m-2 ">
-              <img src={link.icon} alt={`${link.name} icon`} className="w-6 h-6 mb-4" />
+            
+              <Image src={link.icon} alt={`${link.name} icon`} width={24} height={24} className="mb-4" />
+              
             </a>
             </li>
         ))}

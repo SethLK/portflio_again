@@ -1,4 +1,4 @@
-import { url } from "inspector";
+
 import React from "react";
 import Card from "../cards/card";
 
@@ -23,10 +23,6 @@ export default function Works() {
                           {Projects.map((project, index) => (
                             <Card key={index} title={project.title} description={project.description} url={project.url} />
                         ))}
-                        <Card title="Testing" description="Test" />
-                                  <Card title="Testing" description="Test" />
-                          <Card title="Testing" description="Test" />
-                          <Card title="Testing" description="Test" />
                         </div>
                       </div>
             </section>

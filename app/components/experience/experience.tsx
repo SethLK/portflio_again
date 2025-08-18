@@ -43,7 +43,7 @@ export default function Experiences() {
   return (
     <main className="container mx-auto p-4" id="experiences">
       <section id="experience" className="my-8">
-        <h1 className="text-3xl font-bold mb-6">Where I've Worked</h1>
+        <h1 className="text-3xl font-bold mb-6">{"Where I've Worked"}</h1>
         <div className="space-y-8">
           {experiences.map((exp, index) => (
             <div key={index} className="border-l-4 pl-4" style={{ borderColor: "var(--accent)" }}>
