@@ -1,28 +1,29 @@
-import React from 'react';
-
-{/* <main className="container mx-auto p-4">
-        <section id="about" className="my-8">
-          <h1 className="text-3xl font-bold mb-4">About Me</h1>
-        </section>
-      </main> */}
+import React from "react";
 
 const HeroSection: React.FC = () => {
-    return (
-        <section className="hero">
-            <div className="container mx-auto p-4">
-                <p className=' p-3 pl-0 text-lg'>Hello there, my name is </p>
-                <h1 className="text-6xl font-bold mb-4">Seth Linn Khant</h1>
-                <h1 className="text-6xl font-bold mb-6">I build things</h1>
-                <div className="max-w-3xl text-lg leading-relaxed space-y-4">
+  return (
+    <section className="relative min-h-[70vh] flex items-center justify-center">
+      <div className="container mx-auto px-6 sm:px-8 md:px-12 text-center">
 
-                    I’m a software engineer focused on building scalable, accessible,
-                    and human-centered digital products, with growing experience.
+        <p className="text-base sm:text-lg mb-2">
+          Hello there, I am
+        </p>
 
-                </div>
+        <h1 className="font-bold mb-4 
+                       text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+          Seth Linn Khant
+        </h1>
 
-            </div>
-        </section>
-    );
+        <p className="mx-auto 
+                      max-w-sm sm:max-w-xl md:max-w-2xl 
+                      text-base sm:text-lg leading-relaxed">
+          I’m a software engineer focused on building scalable, accessible,
+          and human-centered digital products, with growing experience.
+        </p>
+
+      </div>
+    </section>
+  );
 };
 
 export default HeroSection;

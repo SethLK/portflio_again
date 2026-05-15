@@ -34,8 +34,8 @@ import Image from 'next/image';
 const Frame = styled.div`
 
   position: relative;
-  width: 350px;
-  height: 350px;
+  width: 430px;
+  height: 550px;
   border: 2px solid var(--accent);
   border-radius: 8px;
   overflow: hidden;
@@ -101,7 +101,7 @@ const About: React.FC = () => {
                     <div className="image-container flex-1 flex justify-center items-center">
                         <Frame>
                             <Image
-                                src={"/me.jpg"}
+                                src={"/me_2.jpg"}
                                 alt="My Image"
                                 width={300}
                                 height={300}
