@@ -31,7 +31,7 @@ const NavBar = () => {
           <li><Link href="#work" className="hover:text-gray-400">Work</Link></li>
           <li><Link href="#contact" className="hover:text-gray-400">Contact</Link></li>
           <li>
-            <Link href="/My Resume 2.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
               Resume
             </Link>
           </li>
@@ -56,7 +56,7 @@ const NavBar = () => {
           <li><Link href="#work">Work</Link></li>
           <li><Link href="#contact">Contact</Link></li>
           <li>
-            <Link href="/My Resume 2.pdf" target="_blank" rel="noopener noreferrer">
+            <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
               Resume
             </Link>
           </li>
